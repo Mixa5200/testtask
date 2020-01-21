@@ -1,0 +1,6 @@
+Order Allow,Deny
+Deny from all
+<Files "download_file.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
